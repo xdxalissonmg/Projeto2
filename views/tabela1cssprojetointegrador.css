@@ -1,0 +1,76 @@
+button:hover {
+    color:darkred;
+    border-color: brown;
+    background-color: brown;
+    cursor: pointer;
+}
+
+table{
+    font-family: arial;
+    font-size: 18px;
+    color: #2F4F4F;
+    background:aquamarine;
+    font-weight: bold;
+    text-align: center;
+    width: 900px;
+
+}
+tbody tr:nth-child(odd){
+    background-color: mediumaquamarine;
+}
+
+input, select, textarea {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00275E;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+}
+
+textarea {
+    height: 120px;
+}
+
+
+thead{
+    font-family: Arial;
+    font-size: 20px;
+    color: darkslategray;
+    text-decoration: underline;
+    background-color:cadetblue;
+}
+
+tfoot{
+    font-weight: bold;
+    font-style: italic;
+}
+
+table, td, th{
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #0000FF;
+}
+.formulario td:first-child. th {
+    text-align: left;
+    padding: 5px 10px;
+
+}
+.titulo{
+    background-color: teal;
+    color:darkslategray;
+}
+
+.vermelho {
+    border-color: red;
+    border-style: solid;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Veículos</title>
+        <meta charset="utf-8">
+
+        <link href="tabela1cssprojetointegrador.css" rel="stylesheet">
+        <script src="cadastro2.js"></script>
+        <script src="jquery-3.6.0.js"></script>
+    </head>
+
+
+    <center>
+    <body>
+        <form id="formulario" name="formulario">
+            <table>
+                <tr>
+                    <th colspan="2" class="titulo">UNNAMED MOTORS - Vehicle Registration</th>
+                </tr>
+                <tr class="formulario">
+                    <td><label>Placa do Veículo:</label></td>
+                    <td><input type="text" id="id_placadoveiculo" name="veiculo" placeholder="Placa do Veículo"></td>
+                </tr>
+                <tr class="formulario">
+                    <td><label>CPF do Proprietario:</label></td>
+                    <td><input type="number" id="id_cpfdoproprietario" name="proprietario" placeholder="Cpf do Proprietario"></td>
+                </tr>
+                
+                        <tr class="formulario">
+                            <td><label>Consultar:</label></td>
+                            <td>
+                                <select id="id_consultar" name="consultar">
+                                    <option value="1">Licenciamento Pago</option>
+                                    <option value="2">Multas em Aberto</option>
+                                    
+                                </select>
+                            </td>
+                        </tr>
+                        
+                    </td>
+                </tr>
+                <tr class="formulario">
+                    <td>Combustível:</td>
+                    <td>
+                        <input type="radio" name="combustivel" value="1">Alcool
+                        <input type="radio" name="combustivel" value="2">Gasolina
+                        <input type="radio" name="combustivel" value="3">Flex
+                        <input type="radio" name="combustivel" value="4">Diesel
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <button onclick="cadastrar()" type="submit">Salvar</button>
+                    </td>
+                </tr>
+
+        </form>
+        </table>
+
+    </center>
+   
+
+    <center>  
+    </div>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Ano de Fabricação</th>
+                    <th>Marca</th>
+                    
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>i30</td>
+                    <td>2016</td>
+                    <td>Hyundai</td>
+                    
+                </tr>
+    
+                <tr>
+                    <td>Q5</td>
+                    <td>2019</td>
+                    <td>Audi</td>
+                    
+                </tr>
+    
+                <tr>
+                    <td>X5</td>
+                    <td>2021</td>
+                    <td>Volvo</td>
+                    
+                </tr>
+    
+                <tr>
+                    <td>307</td>
+                    <td>2018</td>
+                    <td>Peugeot</td>
+                    
+                </tr>
+    
+                <tr>
+                    <td>Evoque</td>
+                    <td>2017</td>
+                    <td>Land Rover</td>
+                    
+                </tr>
+
+                
+
+            </tbody>
+
+            
+        </table>
+    </body>
+</html>
+</center>

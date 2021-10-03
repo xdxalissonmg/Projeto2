@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Veículos</title>
+        <meta charset="utf-8">
+
+        <link href="tabela1cssprojetointegrador.css" rel="stylesheet">
+        <script src="cadastro.js"></script>
+        <script src="jquery-3.6.0.js"></script>
+        
+    </head>
+    <center>
+    <body>
+        <!--Formulário da página-->
+        <form id="id_formulario" name="formulario">
+            <table>
+
+                <tr>
+                    <th colspan="2" class="titulo">UNNAMED MOTORS - Vehicle Registration</th>
+                </tr>
+                <tr class="formulario">
+                    <td><label>Proprietário:</label></td>
+                    <td><input type="text" id="id_proprietario" name="proprietario" placeholder="Digite o nome do proprietário"></td>
+                </tr>
+                <tr class="formulario">
+                    <td><label>Ano de fabricação:</label></td>
+                    <td><input type="number" id="id_fabricacao" name="fabricacao" placeholder="Digite o ano de fabricação"></td>
+                </tr>
+                <tr class="formulario">
+                    <td><label>Data de aquisição:</label></td>
+                    <td><input type="date" id="data" name="data" placeholder="Digite a data de aquisição"></td>
+                </tr>
+                <tr class="formulario">
+                    <td><label>Cor:</label></td>
+                    <td>
+                        <select id="id_cor" name="cor">
+                            <option value="1">Vermelho</option>
+                            <option value="2">Preto</option>
+                            <option value="3">Branco</option>
+                            <option value="4">Laranja</option>
+                            <option value="5">Verde</option>
+                            <option value="6">Prata</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+                <tr class="formulario">
+                    <td>Quitado:</td>
+                    <td>
+                        <input type="radio" name="quitado" value="1">Sim
+                        <input type="radio" name="quitado" value="2">Não
+                        
+                    </td>
+                </tr>
+                <tr class="formulario">
+                    <td>Opcionais:</td>
+                    <td>
+                        <input type="checkbox" name="opcionais" value="1">Aibag
+                        <input type="checkbox" name="Opcionais" value="2">Direção Hidraulica
+                        <input type="checkbox" name="Opcionais" value="3">Freios ABS
+                        <input type="checkbox" name="Opcionais" value="4">Ar condicionado
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <button onclick="cadastrar()" type="submit">Salvar</button>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </center>
+    <center>
+        <!--Tabela da página-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Proprietário</th>
+                    <th>Ano de Fabricação</th>
+                    <th>Modelo</th>
+                    <th>Estado de Conservação</th>
+                    
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Antônio Carlos</td>
+                    <td>2002</td>
+                    <td>Gol</td>
+                    <td>Usado</td>
+                    
+                </tr>
+    
+                <tr>
+                    <td>Maria de Lourdes</td>
+                    <td>2014</td>
+                    <td>Hylux</td>
+                    <td>Usado</td>
+                    
+                </tr>
+    
+                <tr>
+                    <td>Walter Marques</td>
+                    <td>2021</td>
+                    <td>320i</td>
+                    <td>Novo</td>
+                </tr>
+    
+                <tr>
+                    <td>Paulo Roberto</td>
+                    <td>2015</td>
+                    <td>Onix</td>
+                    <td>Usado</td>
+                </tr>
+    
+                <tr>
+                    <td>Geraldo Donizete</td>
+                    <td>2008</td>
+                    <td>Fiesta</td>
+                    <td>Usado</td>
+                </tr>
+
+                <tr>
+                    <td>Neusa Carvalho</td>
+                    <td>2019</td>
+                    <td>Palio</td>
+                    <td>Novo</td>
+                </tr>
+
+                <tr>
+                    <td>Claudia Correa</td>
+                    <td>2017</td>
+                    <td>Renegade</td>
+                    <td>Novo</td>
+                </tr>
+
+                <tr>
+                    <td>José Nascimento</td>
+                    <td>1998</td>
+                    <td>Polo</td>
+                    <td>Usado</td>
+                </tr>
+
+                <tr>
+                    <td>Inácia dos Santos</td>
+                    <td>2020</td>
+                    <td>Ferrari 458</td>
+                    <td>Novo</td>
+                </tr>
+
+                <tr>
+                    <td>Renato Pereira</td>
+                    <td>2014</td>
+                    <td>3008</td>
+                    <td>Usado</td>
+                </tr>
+                
+
+            </tbody>
+
+            
+        </table>
+    </body>
+</html>
+</center>
